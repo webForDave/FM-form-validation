@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(234, 29%, 20%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+.text {
+    width: 60%;
+    /* background-color: green; */
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.icon-text p {
+    padding-left: 5px;
+}
+
+.header-p {
+    padding: 15px 0;
+}
+
+.flex-illustration-img {
+    width: 220px;
+}
+
+.mb-img {
+    display: none;
+}
+
+form label {
+    display: block;
+    font-weight: bolder;
+    margin: 30px 0 10px 0;
+}
+
+form input {
+    width: 90%;
+    height: 35px;
+    border: 2px solid hsl(235, 18%, 26%);
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+form #submit-btn {
+    margin: 10px 0;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: hsl(234, 29%, 20%);
+    color: white;
+    cursor: pointer;
+}
+
+#success {
+    display: none;
+    width: 30%;
+    height: auto;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sub-h {
+    /* text-align: center; */
+    margin: 20px 0;
+}
+
+#dismiss {
+    margin: 30px 0 10px 0;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width : 500px) {
+
+    body{
+        background: white;
+        display: block;
+    }
+
+    #main-container {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0;
+    }
+
+    h1 {
+        padding: 30px 0;
+    }
+
+    #main-container p {
+        font-size: 18px
+    }
+
+    .text {
+        margin: 0 10px;
+    }
+
+    .flex-illustration {
+        display: none;
+    }
+
+    .mb-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 0 auto
+
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    #success {
+        background: hsl(234, 29%, 20%);
+        color: white;
+        width: 100%;
+    }
+}
