@@ -150,7 +150,10 @@ form #submit-btn {
         width: 100%;
         height: auto;
         margin: 0 auto
+    }
 
+    .mb-img img {
+        width: 250px;
     }
 
     .text {
