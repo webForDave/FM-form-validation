@@ -106,12 +106,17 @@ form #submit-btn {
     cursor: pointer;
 }
 
+#inputed-email {
+    font-weight: bolder;
+} 
+
 
 @media (max-width : 500px) {
 
     body{
         background: white;
         display: block;
+        padding: 0 5px;
     }
 
     #main-container {
@@ -119,6 +124,7 @@ form #submit-btn {
         height: auto;
         display: block;
         padding: 0;
+        margin-top: 60px;
     }
 
     h1 {
@@ -155,5 +161,6 @@ form #submit-btn {
         background: hsl(234, 29%, 20%);
         color: white;
         width: 100%;
+        margin: 20% auto;
     }
 }
